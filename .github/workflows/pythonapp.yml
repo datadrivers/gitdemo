@@ -1,0 +1,16 @@
+name: DemoAction
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+
+  unittest:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: unit_check
+      run: python -m my_application.test.test
