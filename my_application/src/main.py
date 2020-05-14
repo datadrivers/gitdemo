@@ -9,3 +9,9 @@ def sell(euro_amount,currency):
     fx_rate = fx.get(currency)
     fx_amount = euro_amount * fx_rate
     return fx_amount
+
+# buy function
+def buy(currency_amount,currency):
+    fx_rate = fx.get(currency)
+    euro_amount = currency_amount/fx_rate
+    return euro_amount
