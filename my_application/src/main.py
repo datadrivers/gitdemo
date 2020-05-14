@@ -1,7 +1,7 @@
 # FX Rates
-fx = {"US-Dollar": 1.25,
-      "Kandaische Dollar": 1.52,
-      "Schweizer Franken": 1.30,
+fx = {"US-Dollar": 2,
+      "Kandaische Dollar": 2,
+      "Schweizer Franken": 2,
       "Bitcoin": 0.00012}
 
 # Sell function
