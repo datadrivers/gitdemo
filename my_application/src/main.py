@@ -1,5 +1,5 @@
 # FX Rates
-fx = {"US-Dollar": 1.20,
+fx = {"US-Dollar": 1.50,
       "Kandaische Dollar": 1.52,
       "Schweizer Franken": 1.30,
       "Bitcoin": 0.00012}
